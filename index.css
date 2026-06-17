@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+body {
+  background-image: url(img/fondo.jpg);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  border-radius: 20px;
+  border: 5px double #705335
+}
+
+.fleur-de-leah-regular {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2 {
+  font-family: 'Fleur De Leah', cursive;  
+}
+
+h1 {
+  font-size: 5rem;
+  color: rgb(183, 1, 1);
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 5px;
+}
+
+hr {
+  border: none;
+  border-radius: 5px;
+  height: 3px;
+  background-color: #705335;
+}
+
+#portada {
+  width: 40vw;
+  height: auto;
+}
